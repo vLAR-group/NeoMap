@@ -18,19 +18,19 @@ NeoMap is a training-free framework for novel-view video synthesis from single i
 Please feel free to contact us via [jinxi.li, tonax.zhang]@connect.polyu.hk or open an issue if you have any questions or suggestions.
 
 <!--
-## Demo
+## 📹 Demo
 
 <p>
     <img width="100%" alt="NeoMap demo" src="./assets/demo.gif">
 </p>
 -->
 
-## News
+## 📢 News
 
 - **2026-07-02**: NeoMap is released on [arXiv](https://arxiv.org/abs/2607.01962).
 - **2026-07-02**: NeoMap is accepted by ECCV 2026.
 
-## TODO
+## 📋 TODO
 
 - [x] Submit the paper onto arXiv.
 - [x] Release the project repository.
@@ -40,7 +40,7 @@ Please feel free to contact us via [jinxi.li, tonax.zhang]@connect.polyu.hk or o
 - [ ] Release data and pretrained-model instructions.
 
 <!--
-## Installation
+## ⚙️ Installation
 
 ```shell script
 git clone https://github.com/vLAR-group/NeoMap.git --recursive
@@ -51,7 +51,7 @@ cd NeoMap
 -->
 
 <!--
-## Usage
+## 🔑 Usage
 
 Detailed inference and evaluation instructions will be released soon.
 
@@ -61,16 +61,16 @@ Detailed inference and evaluation instructions will be released soon.
 -->
 
 <!--
-## Datasets
+## 💾 Datasets
 
 Data preparation and benchmark instructions will be released soon.
 -->
 
-## Acknowledgement
+## 😊 Acknowledgement
 
 We thank the authors of [FlexWorld](https://github.com/ML-GSAI/FlexWorld), [Wan2.2](https://github.com/Wan-Video/Wan2.2), [VGGT](https://github.com/facebookresearch/vggt), [Video Depth Anything](https://github.com/DepthAnything/Video-Depth-Anything), and [VIPE](https://github.com/nv-tlabs/vipe) for their open-source code and excellent work.
 
-## Citation
+## 📚 Citation
 
 If you find our work helpful, please consider citing:
 
