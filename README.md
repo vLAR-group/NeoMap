@@ -15,7 +15,7 @@
 This repository will contain the official implementation of the paper: *NeoMap: Training-free Novel-View Synthesis from Single Images and Videos*.
 NeoMap is a training-free framework for novel-view video synthesis from single images or monocular videos. It locates high-fidelity, view-consistent novel-view solutions within the natural video data manifold learned by general pre-trained video models through convergent manifold alternating projection iterations.
 
-Please feel free to contact us via [jinxi.li@connect.polyu.hk](mailto:jinxi.li@connect.polyu.hk) or open an issue if you have any questions or suggestions.
+Please feel free to contact us via [jinxi.li, tonax.zhang]@connect.polyu.hk or open an issue if you have any questions or suggestions.
 
 <!--
 ## Demo
