@@ -1,0 +1,15 @@
+# Step 1 of the Linux/CUDA installation. Install the CUDA-specific PyTorch wheels
+# and requirements-release.txt afterwards, in the order shown in README.md.
+name: neomap
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11.14
+  - pip=25.3
+  - ffmpeg
+  - pip:
+      - setuptools==80.9.0
+      - wheel==0.45.1
+      - ninja==1.13.0
+      - packaging==26.0
+      - psutil==7.2.2

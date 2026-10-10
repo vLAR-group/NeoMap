@@ -1,0 +1,31 @@
+output/
+outputs/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.gradio/
+*.log
+checkpoints/
+
+# Machine-specific configuration and personal launch scripts.
+.local/
+local/
+*.local.*
+configs/private/
+scripts/private/
+run_bash/private/
+# Historical personal names/paths must never enter a public commit.
+run_bash/jinxi_*.sh
+configs/examples/train_jinxi.yaml
+
+# Downloaded external source, datasets, model assets and editor/cache files.
+tools/vggt/
+data/
+skyseg.onnx
+.DS_Store
+._*
+.idea/
+.vscode/
+*.egg-info/
+build/
+dist/

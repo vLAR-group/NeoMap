@@ -1,0 +1,33 @@
+# Direct runtime dependencies, curated from the working Gene environment.
+# Install PyTorch from the CUDA 12.1 index FIRST (see README.md).
+# These guards accept the installed +cu121 wheels and prevent accidental upgrades.
+torch==2.4.1
+torchvision==0.19.1
+torchaudio==2.4.1
+diffusers==0.32.0
+transformers==4.51.3
+tokenizers==0.21.4
+accelerate==1.5.2
+huggingface-hub==0.36.2
+safetensors==0.8.0
+einops==0.8.0
+easydict==1.13
+ftfy==6.1.1
+sentencepiece==0.2.1
+numpy==1.26.4
+scipy==1.14.1
+Pillow==11.3.0
+PyYAML==6.0.3
+opencv-python==4.10.0.84
+imageio==2.36.0
+imageio-ffmpeg==0.5.1
+tqdm==4.66.5
+omegaconf==2.3.0
+dashscope==1.25.5
+gradio==5.12.0
+gradio-client==1.5.4
+plotly==6.5.0
+pydantic==2.12.5
+fastapi==0.124.0
+# flash-attn==2.7.3 is installed separately after torch, with --no-build-isolation.
+# Not a complete transitive lockfile; see docs/ENVIRONMENT.md for validation scope.

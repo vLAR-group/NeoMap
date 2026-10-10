@@ -1,0 +1,7 @@
+# All relative paths below are relative to THIS config file, not your shell cwd.
+# Copy/edit this file for your own machine. Keep the server-specific config intact.
+checkpoints:
+  wan: ../checkpoints/Wan2.2-I2V-A14B
+  vggt: ../checkpoints/VGGT-1B/model.pt
+repositories:
+  vggt: ../tools/vggt
